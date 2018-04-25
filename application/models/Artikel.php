@@ -50,4 +50,14 @@ class Artikel extends CI_Model {
 	public function delete($id_blog){
 		$query = $this->db->query('DELETE from biodata where id_blog= '.$id_blog);
 	}
+
+	    public function create_category()
+    {
+        $data = array(
+            'cat_name'          => $this->input->post('cat_name'),
+            'cat_description'   => $this->input->post('cat_description')
+        );
+
+        return $this->db->insert('categories', $data);
+    }
 }

@@ -26,7 +26,7 @@
 					<li><a class="page-scroll" href="#carousel-281873">Home</a></li>
 					<li><a class="page-scroll" href="#sejarah">About</a></li>
 					<li><a class="page-scroll" href="about">Blog</a></li>
-					
+					<li><a href="<?php echo base_url('home/kekategori');?>">Kategori</a></li>					
 				</ul>
 			</div>   
 		</div>
