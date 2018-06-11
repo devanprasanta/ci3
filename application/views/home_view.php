@@ -22,12 +22,7 @@
 				</button>
 			</div>   
 			<div class="single-page-nav sticky-wrapper" id="tmNavbar">
-				<ul class="nav navbar-nav">
-					<li><a class="page-scroll" href="home">Home</a></li>
-					<li><a class="page-scroll" href="home">About</a></li>
-					<li><a class="page-scroll" href="about">Blog</a></li>
-					
-				</ul>
+				<?php $this->load->view('menu') ?>
 			</div>   
 		</div>
 	</nav>    				

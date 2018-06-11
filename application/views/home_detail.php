@@ -26,7 +26,7 @@
 					<li><a class="page-scroll" href="../../home">Home</a></li>
 					<li><a class="page-scroll" href="../../home">About</a></li>
 					<li><a class="page-scroll" href="../../about">Blog</a></li>
-					
+					<li><a class="page-scroll" href="login/logout">Logout</a></li> 
 				</ul>
 			</div>   
 		</div>

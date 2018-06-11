@@ -22,12 +22,7 @@
 				</button>
 			</div>   
 			<div class="single-page-nav sticky-wrapper" id="tmNavbar">
-				<ul class="nav navbar-nav">
-					<li><a class="page-scroll" href="#carousel-281873">Home</a></li>
-					<li><a class="page-scroll" href="#sejarah">About</a></li>
-					<li><a class="page-scroll" href="about">Blog</a></li>
-					<li><a href="<?php echo base_url('home/kekategori');?>">Kategori</a></li>					
-				</ul>
+				<?php $this->load->view('menu') ?>
 			</div>   
 		</div>
 	</nav>    				

@@ -3,11 +3,19 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 class About extends CI_Controller {
 
+	public function __construct()
+	{
+		parent::__construct();
+		if (!$this->session->userdata('logged_in')) {
+			redirect('Login','refresh');
+		}
+	}
 	public function index()
 	{
 		$this->load->model('Artikel');
 		$data['artikel'] = $this->Artikel->get_artikels();
 		$this->load->view('home_view', $data);
+		
 	}
 
 	public function detail($id)
